@@ -17,3 +17,6 @@ wheels/
 .aws/
 .codex/
 ~$*
+
+# Resultados gerados localmente
+outputs/
