@@ -4,9 +4,9 @@ Trabalho de GCC118 — Programação Matemática. A AED usa setores do Censo 202
 
 ## Notebooks
 
-- `AED_Brasil.ipynb`: inventário nacional e comparação entre UFs.
-- `AED_UF.ipynb`: análise de uma UF; altere `codigo_uf`.
-- `AED_Municipal.ipynb`: análise de um município; altere `codigo_municipio`.
+- [`AED_Brasil.ipynb`](src/AED_Brasil.ipynb): inventário nacional e comparação entre UFs.
+- [`AED_UF.ipynb`](src/AED_UF.ipynb): análise de uma UF; altere `codigo_uf`.
+- [`AED_Municipal.ipynb`](src/AED_Municipal.ipynb): análise de um município; altere `codigo_municipio`.
 
 ## Executar
 
@@ -16,6 +16,8 @@ Com [uv](https://docs.astral.sh/uv/) instalado:
 uv sync
 uv run --with notebook jupyter notebook
 ```
+
+Abra os notebooks da pasta `src/`. Os caminhos funcionam ao executar pela raiz do projeto ou por `src/`.
 
 Ao trocar o recorte, reinicie o kernel e execute todas as células. Os notebooks do Brasil, por UF e municipal não geram matrizes completas de distâncias.
 
