@@ -1,0 +1,12 @@
+{
+  "Codigo_UF":"31",
+  "Nome_UF":"Minas Gerais",
+  "Ano":2022,
+  "Instancias":853,
+  "Setores_urbanos_rurais":51323,
+  "Populacao":20539989,
+  "Mediana_setores_instancia":25.0,
+  "P90_setores_instancia":98.0,
+  "Maior_instancia_setores":5166,
+  "Municipios_com_pendencias":0
+}
